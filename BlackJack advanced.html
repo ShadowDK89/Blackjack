@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="blackjack advanced.css" rel="stylesheet" />
+    <title>Black Jack</title>
+  </head>
+  <body>
+    <div class="row mt-3">
+      <div class="col-4 offset-1">
+        <button id="start-button" class="btn btn-primary col-sm-2">
+          Start
+        </button>
+        <button id="draw-button" disabled class="btn btn-primary col-sm-2">
+          Draw
+        </button>
+        <button id="stay-button" disabled class="btn btn-primary col-sm-2">
+          Stay
+        </button>
+        <button id="clear-scoreboard-button" class="btn btn-danger col-sm-3">
+          Clear Scoreboard
+        </button>
+        <div id="dealer-content" style="font-size: 72px;"></div>
+        <div id="player-content" style="font-size: 72px;"></div>
+        <div id="result-content" style="font-size: 72px;"></div>
+        <hr />
+        <div id="deck-content" style="font-size: 72px;" class="col-sm-10"></div>
+      </div>
+      <div class="col-5">
+        <table class="table">
+          <thead class="thead-dark">
+            <th scope="col">Player</th>
+            <th scope="col">Dealer</th>
+            <th scope="col">Winner</th>
+          </thead>
+          <tbody id="scoreboard-content" style="font-size: 57px;"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="Card.js"></script>
+    <script src="Result.js"></script>
+    <script src="Hand.js"></script>
+    <script src="DealerHand.js"></script>
+    <script src="Deck.js"></script>
+    <script src="table.js"></script>
+    <script src="Scoreboard.js"></script>
+    <script src="BlackJack advanced.js"></script>
+  </body>
+</html>

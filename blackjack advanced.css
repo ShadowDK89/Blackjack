@@ -1,0 +1,14 @@
+button {
+  min-width: 70px;
+}
+#clear-scoreboard-button {
+  margin-top: 5px;
+  min-width: 150px;
+}
+
+#scoreboard-content {
+  min-width: 700px;
+}
+.table {
+  width: 130%;
+}
